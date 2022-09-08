@@ -1,0 +1,352 @@
+/* cambios de accesibilidad*/
+@font-face{
+    font-family: Roboto;
+    src: url('../fonts/RobotoCondensed-Regular.ttf') format('truetype');
+}
+
+:root{
+    --color-azul: #006aff65;
+    --color-blanco: rgba(224, 234, 239, 0.8);  
+    --font-sidici:'Roboto';
+}
+
+*{
+    font-family: var(--font-sidici);
+}
+
+/* interfaz activos */
+
+.containernav-activos{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid black;
+    background-color: rgba(224, 234, 239, 0.479);
+    font-family: var(--font-sidici);
+} 
+.containernav-activos h1{
+    position: absolute;
+    bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15px;
+    font-family: var(--font-sidici);
+}
+.containermain-activos{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 530px;
+    justify-content: start;
+    margin-top: 10px;
+    background-color: rgba(224, 234, 239, 0.8);
+    font-family: var(--font-sidici);
+}
+.table-icons{
+    position: relative;
+    font-size: 25px;
+} 
+.opcionesnav-activos{
+    position: absolute;
+    margin-right: 10px;
+    right: 5px;
+    bottom: 15px;
+}
+.opcionesnav-activos a img{
+    width: 40px; 
+}
+.opcionesnav-activos img:hover{
+    filter: invert(11%) sepia(71%) saturate(7143%) hue-rotate(238deg) brightness(97%) contrast(116%);
+}
+.opcionesnav-activos input{
+    margin-right: 300px;
+    margin-left: 15px;   
+}    
+.tables-sidici{
+    position: absolute;
+    right: 0px;
+    margin-top: 15px;
+}
+
+/* formulario activos */
+
+.modalregistro-activos{
+    height: 600px;
+    background-color: rgba(224, 234, 239, 0.8);
+}
+.modal_asignar{
+    height: 600px;
+    background-color: rgba(224, 234, 239, 0.8);
+}
+
+.form-activos label{
+    display: flex;
+    margin-left: 13px;
+}
+.form-activos input{
+    width: 430px;
+}
+.form-options button{
+    display: flex;
+    margin-top: 16px;
+    margin-left: 15px;
+}
+
+.form-textarea label{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 13px; 
+
+}
+.form-textarea textarea{
+    width: 430px;
+    height: 100px;
+    resize: none;
+    margin-left: 13px; 
+}
+
+/* Interfaz usuarios */
+
+.containernav-users{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 130px;
+    border-bottom: 1px solid black;
+    background-color: rgba(224, 234, 239, 0.479);
+} 
+.containernav-users h1{
+    position: absolute;
+    bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15px;
+}
+
+.containermain-users{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 520px;
+    justify-content: start;
+    margin-top: 10px;
+    background-color: rgba(224, 234, 239, 0.8);
+}
+.opcionesnav-users{
+    position: absolute;
+    margin-right: 10px;
+    right: 5px;
+    bottom: 15px;
+}
+.opcionesnav-users img{
+    width: 40px; 
+}
+.opcionesnav-users img:hover{
+    filter: invert(11%) sepia(71%) saturate(7143%) hue-rotate(238deg) brightness(97%) contrast(116%);
+}
+.opcionesnav-users input{
+    margin-right: 15px;
+    margin-left: 15px;
+}   
+.tables-sidici{
+    margin-top: 15px;
+}
+
+/* formulario usuarios */
+
+.modal-users{
+    height: 600px;
+    background-color: rgba(224, 234, 239, 0.8);
+}
+
+.form-users label{
+    display: flex;
+    margin-left: 13px;
+}
+
+.form-users input{
+    position: relative;
+    display: flex;
+    margin-top: 3px;
+    margin-left: 10px;
+    width: 450px;
+}
+.formoptions-users button{
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.formtextarea-users{
+    position: relative;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+.formtextarea-users textarea{
+    width: 450px;
+    height: 100px;
+    resize: none;
+}
+
+.formactivo-users{
+    position: absolute;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.forminactivo-users{
+    position: absolute;
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.textestado-users{
+    position: absolute;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* interfaz Novedades */
+
+.containernav-nov{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid black;
+    background-color: rgba(224, 234, 239, 0.479);
+} 
+.containernav-nov h1{
+    position: absolute;
+    bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15px;
+}
+.containermain-nov{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 530px;
+    justify-content: start;
+    margin-top: 10px;
+    background-color: rgba(224, 234, 239, 0.8);
+}
+.opcionesnav-nov{
+    position: absolute;
+    margin-right: 10px;
+    right: 5px;
+    bottom: 15px;
+}
+.opcionesnav-nov img{
+    width: 40px; 
+}
+.opcionesnav-nov img:hover{
+    filter: invert(11%) sepia(71%) saturate(7143%) hue-rotate(238deg) brightness(97%) contrast(116%);
+}
+.opcionesnav-nov input{
+    margin-right: 15px;
+    margin-left: 15px;
+}   
+
+/* formulario Novedades */
+
+.modal-novedades{
+    height: 600px;
+    background-color: rgba(224, 234, 239, 0.8);
+}
+
+.form-novedades label{
+    display: flex;
+    margin-left: 13px;
+}
+.form-novedades input{
+    width: 450px;
+}
+
+.formtextarea-nov{
+    position: relative;
+    margin-left: 13px;
+    margin-top: 5px;
+
+}
+.formtextarea-nov textarea{
+    width: 450px;
+    height: 100px;
+    resize: none;
+}
+
+/* interfaz informes */
+
+.containernav-informes{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid black;
+    background-color: rgba(224, 234, 239, 0.479);
+    flex-wrap: wrap;
+} 
+
+.containermain-informes{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: start;
+    margin-top: 10px;
+    background-color:rgba(224, 234, 239, 0.8);
+}
+
+.content-indicador{
+    display: flex;
+    width: 35%;
+    height: 450px;
+    background-color: rgba(1, 90, 255, 0.452);
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.content-indicador canvas{
+    width: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.content-indicador h3{
+    font-size: 25px;
+    margin-left: 15px;
+}
+.containernav-informes a{
+    position: absolute;
+    margin-right: 10px;
+    right: 5px;
+    bottom: 15px;
+    
+}
+
+ /* Pagina principal SIDICI */
+
+ .main-principal{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+.container-section{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 550px;
+    margin-top: 10px;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+.container-section h1{
+    position: absolute;
+    font-family: var(--font-sidici);
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.8);
+    left: 30px;
+    margin-top: 50px;
+
+}
+

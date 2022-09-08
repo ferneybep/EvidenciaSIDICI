@@ -1,0 +1,101 @@
+.perfil-usuario  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: absolute;
+}
+.perfil-usuario .container-info .cambiar-perfil-usuario img {
+    display: flex;
+    width: 27%;
+    height: 65%;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+.perfil-usuario .container-info .cambiar-perfil-usuario .boton-perfil {
+    display: flex;
+    position: absolute;
+    left: 10px;
+    top: 2px;
+    border: 2px solid rgba(0, 0, 30, 0.8);
+    background-color: #FFFFFF;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.perfil-usuario .container-info .cambiar-perfil-usuario .boton-perfil i{
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.perfil-usuario .informacion-usuario .nombre-usuario h2{
+    display: flex;
+    width: 100%;
+    font-size: 1.75em;
+    margin-bottom: 0.5rem;
+    margin-left: 13px;
+    margin-top: 240px;
+}
+.perfil-usuario .informacion-usuario .nombre-datos h4{
+    display: flex;
+    width: 100%;
+    font-size: 1.75em;
+    margin-bottom: 0.5rem;
+    margin-left: 285px;
+    margin-top: -260px;
+}
+.perfil-usuario .informacion-usuario{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 7rem 2rem; */
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    background-color: rgba(224, 234, 239, 0.8);
+    border-radius: 15px;
+    width: 50%; 
+    height:45%;
+    /* align-items: center; */
+    position: relative;
+} 
+.container-info{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 87vh;
+}
+.informacion-usuario ul{
+    display:list-item;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    margin-left: 300px;
+    margin-top: 10px;
+    /* text-align: center; */
+}
+.informacion-usuario ul {
+    width: 50%;
+    /* list-style: none; */
+}
+.informacion-usuario ul {
+    padding: 5px 0;
+} 
+/* adactacion a dispositivos */
+@media (max-width: 750px){
+    .perfil-usuario .lista-datos {
+        width: 100%;
+    }
+
+    .perfil-usuario .informacion-usuario .nombre-usuario{
+        width: 95%;
+    }}
+.boton-modal{
+    position:absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.modal-config{
+    background-color: rgba(224, 234, 239, 0.8);
+}
